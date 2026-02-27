@@ -27,7 +27,7 @@ Hints:
 user_input = input("Please enter a number: ")
 
 # Convert the input to a float (to handle both integers and decimals)
-number = int(user_input)
+number = float(user_input)
 
 # Determine if the number is positive, negative, or zero
 if number > 0:
